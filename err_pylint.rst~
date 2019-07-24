@@ -1,0 +1,44 @@
+************* Module main
+src/main.py:10:48: C0326: Exactly one space required after comma
+screen = pygame.display.set_mode((settings.WIDTH,settings.HEIGHT))
+                                                ^ (bad-whitespace)
+src/main.py:46:12: C0303: Trailing whitespace (trailing-whitespace)
+src/main.py:48:27: C0326: Exactly one space required after comma
+    pygame.draw.rect(screen,settings.Colors.GREEN,(x,y,width, height))
+                           ^ (bad-whitespace)
+src/main.py:48:49: C0326: Exactly one space required after comma
+    pygame.draw.rect(screen,settings.Colors.GREEN,(x,y,width, height))
+                                                 ^ (bad-whitespace)
+src/main.py:48:52: C0326: Exactly one space required after comma
+    pygame.draw.rect(screen,settings.Colors.GREEN,(x,y,width, height))
+                                                    ^ (bad-whitespace)
+src/main.py:48:54: C0326: Exactly one space required after comma
+    pygame.draw.rect(screen,settings.Colors.GREEN,(x,y,width, height))
+                                                      ^ (bad-whitespace)
+src/main.py:50:0: C0303: Trailing whitespace (trailing-whitespace)
+src/main.py:54:0: C0305: Trailing newlines (trailing-newlines)
+src/main.py:1:0: C0111: Missing module docstring (missing-docstring)
+src/main.py:8:0: E1101: Module 'pygame' has no 'init' member (no-member)
+src/main.py:10:0: C0103: Constant name "screen" doesn't conform to UPPER_CASE naming style (invalid-name)
+src/main.py:13:0: C0103: Constant name "x" doesn't conform to UPPER_CASE naming style (invalid-name)
+src/main.py:14:0: C0103: Constant name "y" doesn't conform to UPPER_CASE naming style (invalid-name)
+src/main.py:15:0: C0103: Constant name "width" doesn't conform to UPPER_CASE naming style (invalid-name)
+src/main.py:16:0: C0103: Constant name "height" doesn't conform to UPPER_CASE naming style (invalid-name)
+src/main.py:17:0: C0103: Constant name "velocity" doesn't conform to UPPER_CASE naming style (invalid-name)
+src/main.py:20:0: C0111: Missing function docstring (missing-docstring)
+src/main.py:25:0: C0103: Constant name "running" doesn't conform to UPPER_CASE naming style (invalid-name)
+src/main.py:32:25: E1101: Module 'pygame' has no 'QUIT' member (no-member)
+src/main.py:37:4: C0103: Constant name "keys" doesn't conform to UPPER_CASE naming style (invalid-name)
+src/main.py:38:12: E1101: Module 'pygame' has no 'K_LEFT' member (no-member)
+src/main.py:40:12: E1101: Module 'pygame' has no 'K_RIGHT' member (no-member)
+src/main.py:42:12: E1101: Module 'pygame' has no 'K_UP' member (no-member)
+src/main.py:44:12: E1101: Module 'pygame' has no 'K_DOWN' member (no-member)
+src/main.py:51:0: E1101: Module 'pygame' has no 'quit' member (no-member)
+************* Module settings
+src/tst/settings.py:14:0: C0305: Trailing newlines (trailing-newlines)
+src/tst/settings.py:1:0: C0111: Missing module docstring (missing-docstring)
+src/tst/settings.py:6:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+--------------------------------------------------------------------
+Your code has been rated at -3.02/10 (previous run: -4.47/10, +1.45)
+
