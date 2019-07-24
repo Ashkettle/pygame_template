@@ -15,7 +15,7 @@ To install all packages
 `pip install -r requirements.txt` or simply `make restore`
 
 To lint
-`make build`
+`make lint`
 
 To Run
 `make run`

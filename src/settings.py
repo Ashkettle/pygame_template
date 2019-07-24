@@ -1,3 +1,5 @@
+"""This module holds all the game settings for global access"""
+
 WIDTH = 1024
 HEIGHT = 768
 FPS = 60
@@ -11,4 +13,3 @@ class Colors:
     RED = (255, 0, 0)
     GREEN = (0, 255, 0)
     BLUE = (0, 0, 255)
-

@@ -8,7 +8,8 @@ restore:
 	pip install -r requirements.txt
 
 python-test:
-	
+
+lint: python-build
 
 python-build:
 	find . -name "*.py" -print0 | xargs -0 pylint 2>&1 | tee pylint.err
