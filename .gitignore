@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# LINT ERRORS
+pylint.err
+
 # C extensions
 *.so
 
