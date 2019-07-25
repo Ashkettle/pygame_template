@@ -7,7 +7,8 @@ all: clean build test
 restore:
 	pip install -r requirements.txt
 
-python-test:
+python-test: 
+	python3 -m pytest test/
 
 lint: python-build
 
@@ -15,7 +16,7 @@ python-build:
 	find . -name "*.py" -print0 | xargs -0 pylint 2>&1 | tee pylint.err
 
 
-build: restore python-build
+build: python-build python-test
 
 test: python-test
 
