@@ -8,7 +8,7 @@ restore:
 	pip install -r requirements.txt
 
 python-test: 
-	python3 -m pytest test/
+	python3 -m pytest --cov=src test/
 
 lint: python-build
 
