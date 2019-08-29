@@ -18,7 +18,7 @@ restore:
 python-test: 
 	( \
     . .venv/bin/activate; \
-    python3 -m pytest pytest --cov-report term --cov-report html:cov_html --cov-report xml:cov.xml --cov=game test/; \
+    python3 -m pytest --cov-report term --cov-report html:cov_html --cov-report xml:cov.xml --cov=game test/; \
     )
 	
 
