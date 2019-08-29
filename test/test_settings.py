@@ -1,6 +1,6 @@
 """Simple example test to make sure pytest is up and running"""
 
-from src import settings
+from game import settings
 
 def test_black_color():
     """Test BLACK constant"""

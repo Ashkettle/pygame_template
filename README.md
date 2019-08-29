@@ -1,6 +1,6 @@
 Make certain you are in the appropriate virtualenv
 To activate a virtualenv
-` source ~/.virtualenvs/<project>/bin/activate `
+` source .venv/bin/activate `
 
 To Deactivate
 `deactivate`
@@ -12,10 +12,13 @@ To install a new package
 
 
 To install all packages
-`pip install -r requirements.txt` or simply `make restore`
+`make restore`
 
 To lint
 `make lint`
+
+To Test
+`make test`
 
 To Run
 `make run`
